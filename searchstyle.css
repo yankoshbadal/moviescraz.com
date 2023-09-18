@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    animation-name: scroll_up;
+    animation-duration: 3s;
+}
+@keyframes scroll_up {
+  100%{
+    top: 0;
+  }
+}
+
+.search-bar {
+    position: absolute;
+    margin-top: 16px;
+    display: inline-block;
+    margin-left:23%;
+    width: 25%;
+    height: 48px;
+    background: #464646;
+    overflow: hidden;
+    border-radius: 1em;
+}
+
+input {
+    width: 230px;
+    height: 40px;
+    float: none;
+    margin: 4px 20px;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    color: white;
+    font-family: 'Nunito',sans-serif;
+
+
+}
+.circle{
+  height: 50px;
+  width: 55px;
+  float: right;
+  margin: 0 0 0 0;
+  margin-right: -2px;
+  margin-top: -1px;
+  background-color: #2278df;
+  border-radius: 0px 20px 20px 0px;
+}
+.pro{
+  height: 17px;
+  width: 17px;
+  margin-top: 13px;
+  margin-left: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+}
+.pro2{
+  height: 13px;
+  width: 13px;
+  margin-top: 2px;
+  margin-left: 2px;
+  background-color: #2278df;
+  border-radius: 50%;
+  position: absolute;
+}
+.hand{
+  height: 9px;
+  width: 2px;
+  margin-top: 14px;
+  position: absolute;
+  margin-left: 15px;
+  transform: rotate(-35.5deg);
+  -webkit-transform: rotate(-35.5deg);
+  background-color: white;
+}
+
+#wrapper {
+margin-top: 50px;
+margin-left:0;
+}
+#menu{
+  font-size: 25px;
+  float:right;
+  color: black;
+  margin-top: 70px;
+ 	margin-right: 100px;
+  height: 50px;
+  width: 100%;
+
+
+}
+#menu a{
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  color: black;
+ 	font-size: 20px;
+  margin-left: 18px;
+  float: right;
+  font-weight: 100;
+}
+
+.logo{
+  height: 150px;
+  width: 150px;
+   margin-top: -85px;
+   display: inline-block;
+   margin-left: 50px;
+   background-position: top;
+   background-image: url("img/logo.png");
+   background-size: 50%;
+   background-repeat: no-repeat;
+}
+#menu a:hover {
+  color: #08a19c;
+
+}
+#menu a:focus {
+   color: #08a19c;
+}
+
+li {
+color:  transparent;
+margin-left: 10px;
+margin-top: 0;
+}
+img{
+  position: static;
+  display: inline-block;
+}
+.ad_desktop{
+  height: 100%;
+  width: 50%;
+  background-color:transparent;
+  float: right;
+  position: ;
+}
+.ad_mobile{
+  height:27%;
+  width: 100%;
+  background-color: transparent;
+  display: none;
+  margin-top: 50px;
+}
+
+#listbox:hover{
+  background-color:#089ca6;
+  color: black;
+}
+#listbox{
+  width: 45%;
+  height: 50px;
+  margin-top: -0px;
+  background-color: black;
+  color: white;
+  border-radius: 1.2em;
+  transition-property: all;
+  transition-duration: .4s;
+}
+a{
+  text-decoration: none;
+}
+
+#listbox p{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Nunito';
+    text-align: center;
+    top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+h1{
+
+   float: none;
+   margin-top: 280px;
+   font-family: arial;
+}
+.warning{
+   display: none;
+}
+#help{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  transition: all 1s;
+  perspective: 1000px;
+  color: black;
+}
+#help:hover{
+  color: tomato;
+}
+/*MOBILE VIEW MOTHER FUKERS*/
+@media (max-width: 1000px){
+  #menu a{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  #menu{
+    margin-right: 15px;
+    margin-top: 25px;
+  }
+  input{
+      background-color: transparent;
+      width: 200px;
+  }
+  .logo{
+    background-size: 50%;
+    margin-left: 0px;
+    margin-top: -70px;
+    height: 100px;
+    width: 100px;
+
+  }
+  h1{
+
+   float: none;
+   margin-top: 27px;
+   font-family: arial;
+   margin:00 10px 2px 10px 00; 
+}
+  .ad_desktop{
+    display: none;
+  }
+  .ad_mobile{
+    display: inherit;
+  }
+  #listbox{
+    width: 100%;
+    margin-left: -20;
+    margin-top: 5px;
+
+  }
+#listbox p{
+  font-size: 15px;
+}
+
+     li{
+
+     }
+     .image{
+        height: 50px;
+        width: 50px;
+     }
+     #wrapper {
+
+         margin-top: 70px;
+         margin-right: 0;
+
+     }
+
+
+      .search-bar {
+        margin-left: -80px;
+        width: 90%;
+        margin-top: 10;
+        margin-bottom: 50px;
+      }
+      .warning{
+
+
+      }
+}

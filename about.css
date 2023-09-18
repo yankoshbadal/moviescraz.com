@@ -1,0 +1,346 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+.nav{
+  width: 100%;
+  height: 100px;
+  border-bottom: solid #cbcbcb 1px;
+  background: #fff;
+}
+#menu{
+  display:inline-block;
+  font-size: 25px;
+  float:right;
+  color: black;
+  margin-top: 55px;
+ 	margin-right: 100px;
+  height: 50px;
+  width: 100%;
+}
+#menu a{
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  color: black;
+ 	font-size: 20px;
+  margin-left: 18px;
+  float: right;
+  margin-top: -15px;
+  font-weight:lighter ;
+}
+.privecy p{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+  position: absolute;
+	margin-top: -125px;
+	display: block;
+	font-size: 21px;
+	margin-left: 180px;
+	color: #5f6368;
+	font-weight: 100;
+}
+.logo{
+  height: 150px;
+  width: 150px;
+   margin-top: -100px;
+   display: inline-block;
+   margin-left: 50px;
+   background-position: top;
+   background-image: url("img/logo.png");
+   background-size: 50%;
+   background-repeat: no-repeat;
+}
+
+#menu a:hover {
+  color: #08a19c;
+}
+#menu a:focus {
+   color: #08a19c;
+}
+.card{
+	position: absolute;
+  margin-top: 50px;
+  margin-left: 300px;
+	width: 300px;
+	height: 400px;
+	transform-style: preserve-3d;
+	perspective: 600px;
+	transition: 0.5s;
+	transition-property: all;
+}
+.front{
+	transition: 0.5s;
+	transition-property: all;
+	backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+  background-image: url("img/aditya.jpg");
+  background-size: 100%;
+  border: 2px solid #000;
+}
+.card:hover .front{
+	transform: rotateX(-180deg);
+	transform-origin: center;
+}
+.card:hover .back{
+	transform: rotateX(0deg);
+}
+.back{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #0d0d0d;
+	backface-visibility: hidden;
+	transform: rotateX(180deg);
+	transition: 0.5s;
+	transition-property: all;
+	color: #fff;
+}
+
+.back:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	background: black;
+}
+#name{
+  margin-left: 95px;
+  margin-top: 150px;
+  font-family: 'Black Han Sans', sans-serif;
+  color: white;
+  position: absolute;
+  font-weight: lighter;
+}
+#titles{
+  color: grey;
+  margin-left: 85px;
+  margin-top: 170px;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+}
+.instagram{
+  height: 40px;
+  width: 40px;
+  margin-top: 210px;
+  margin-left: 103px;
+  border-radius: 50%;
+  background-image: url("img/instagramred.png");
+  background-size: 110%;
+  background-position: center;
+  transition-property: all;
+  transition-duration: .5s;
+  border:2px solid  grey;
+}
+.twitter{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url("img/twitterred.jpg");
+  margin-top: -43px;
+  margin-left: 155px;
+  border-radius: 50%;
+  background-size: 90%;
+  background-position: 3px 1px;
+  transition-property: all;
+  transition-duration: .5s;
+  border:2px solid  grey;
+}
+.instagram:hover,.twitter:hover{
+  filter: none;
+}
+/*Yankosh-Kumar-Badal*/
+.card2{
+	position: absolute;
+  margin-top: 50px;
+  margin-left: 750px;
+	width: 300px;
+	height: 400px;
+	transform-style: preserve-3d;
+	perspective: 600px;
+	transition: 0.5s;
+	transition-property: all;
+}
+.front2{
+	transition: 0.5s;
+	transition-property: all;
+	backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+  background-image: url("img/yankosh.jpg");
+  background-size: 100%;
+  border: 2px solid #000;
+}
+.card2:hover .front2{
+	transform: rotateX(-180deg);
+	transform-origin: center;
+}
+.card2:hover .back2{
+	transform: rotateX(0deg);
+}
+.back2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  background: #0d0d0d;
+	backface-visibility: hidden;
+	transform: rotateX(180deg);
+	transition: 0.5s;
+	transition-property: all;
+	color: #fff;
+}
+
+.back2:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	background:#000;
+}
+#name2{
+  margin-left: 85px;
+  margin-top: 150px;
+  font-family: 'Black Han Sans', sans-serif;
+  color: white;
+  position: absolute;
+  font-weight: lighter;
+}
+#titles2{
+  color: grey;
+  margin-left: 93px;
+  margin-top: 170px;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+}
+/*AND SO ON BRO*/
+#creators{
+  text-align: center;
+  font-family: 'Black Han Sans', sans-serif;
+  color: grey;
+  font-size: 25px;
+}
+.info{
+  font-family: "Poppins",arial;
+  margin-top: 550px;
+}
+.ost{
+  color: white;
+  background-color: #08ac8d;
+  text-align: center;
+  height: auto;
+  line-height: 45px;
+  width: 80%;
+  margin-left: 10%;
+  border: 2px solid skyblue;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+.snd{
+  color: white;
+  background-color: #08ac8d;
+  text-align: center;
+  height: auto;
+  line-height: 40px;
+  width: 80%;
+  margin-bottom: 25px;
+  margin-left: 10%;
+  border: 2px solid skyblue;
+  border-radius: 20px;
+}
+.trd{
+  color: white;
+  background-color: #08ac8d;
+  text-align: center;
+  height: auto;
+  line-height: 40px;
+  width: 80%;
+  margin-bottom: 25px;
+  margin-left: 10%;
+  border: 2px solid skyblue;
+  border-radius: 20px;
+}
+.frth{
+  color: white;
+  background-color: #08ac8d;
+  text-align: center;
+  height: auto;
+  line-height: 40px;
+  width: 80%;
+  margin-bottom: 25px;
+  margin-left: 10%;
+  border: 2px solid skyblue;
+  border-radius: 20px;
+}
+.ost, .snd,.trd,.frth{
+  transition: all .2s;
+}
+.ost:hover, .snd:hover,.trd:hover,.frth:hover{
+  background: #fff;
+  color: #08ac8d;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+
+.fotter{
+  position: fixed;
+  bottom: 0;
+  color: grey;
+  background: #000;
+  text-align: center;
+  font-family: arial;
+  height: 60px;
+  width: 100%;
+  border-radius: 20px 20px 00 00;
+  line-height: 60px;
+}
+@media (max-width: 1000px) {
+
+    #menu a{
+      font-size: 15px;
+      margin-left: 10px;
+      font-weight: normal;
+      margin-top: 0px;
+    }
+    #menu{
+      margin-right: 15px;
+      margin-top: 25px;
+    }
+    .logo{
+      background-size: 50%;
+      margin-left: 0px;
+      margin-top: -70px;
+      height: 100px;
+      width: 100px;
+    }
+    .privecy{
+      display: none;
+    }
+    .nav{
+      height: 70px;
+    }
+    .card{
+      margin-left:8%;
+    }
+    .card2{
+      margin-top: 510px;
+      margin-left: 8%;
+    }
+    .info{
+      margin-top: 1000px;
+    }
+    .ost, .snd,.trd,.frth{
+      margin-left: 5%;
+      width: 90%;
+    }
+  }

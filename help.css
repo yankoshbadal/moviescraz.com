@@ -1,0 +1,150 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.nav{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border:solid #cbcbcb 1px;
+  border-right: 0px;
+  border-top: 0px;
+  border-left: 0px;
+	position:fixed;
+
+}
+.privecy p{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	margin-top: 20px;
+	display: block;
+	font-size: 21px;
+	margin-left: 190px;
+	color: #5f6368;
+	font-weight: 100;
+  position: fixed;
+}
+.logo{
+  height: 100px;
+  width: 100px;
+  margin-top: 7px;
+  display: inline-block;
+  margin-left: 100px;
+  background-position: top;
+  background-image: url("img/logo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+	position: fixed;
+}
+.help{
+	margin-top: 80px;
+  display: inline-block;
+	width: 100%;
+}
+#mb{
+	display: none;
+}
+.help p{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	font-size: 15px;
+	margin-left: 39%;
+}
+#ask{
+	display: inline-block;
+  margin-left: 80%;
+	margin-top: 23px;
+	font-size: 17px;
+	background-color: #08a19c;
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	transition: all .3s;
+}
+#ask:hover{
+  color: #08a19c;
+	background: #fff;
+	border: 1px solid #08a19c;
+}
+#howtosearch h2{
+	font-weight: normal;
+	color:#5f6368;
+}
+.span{
+	height: 5px;
+	width: 150px;
+	background: #08a19c;
+	border-radius: 50%;
+	margin-top: -15px;
+}
+.hts{
+	width: 90%;
+	height:auto;
+	margin-left: 5%;
+	border-radius:10px;
+	border: 2px solid #08a19c;
+	margin-top: 25px;
+	padding-bottom: 50px;
+}
+.img1{
+	width: 683px;
+	height: 365px;
+	background:grey;
+	margin-top: 25px;
+	background-image: url("img/hd1.jpg");
+	border: black solid 2px;
+}
+.img2{
+	width: 683px;
+	height: 365px;
+	background:grey;
+	margin-top: 25px;
+	background-image: url("img/hd2.jpg");
+	border: black solid 2px;
+}
+.hts p,#htd p{
+	margin-left: 50px;
+}
+     @media (max-width: 1000px) {
+
+
+			.logo{
+				margin-left: 0px;
+			}
+			.privecy p{
+				margin-left:80px;
+				font-size: 17px;
+				margin-top: 23px;
+			}
+    .nav{
+     height: 70px;
+     }
+		 #dt{
+			 display: none;
+		 }
+		 #mb{
+			 display: inline-block;
+		 }
+		 .help p{
+			 margin-left: 17%;
+		 }
+		 #ask{
+			 font-size: 14px;
+			 margin-left: 65%;
+			 margin-top: 25px;
+		 }
+		 .img1{
+			 width: 180px;
+			 height: 320px;
+			 background-image: url("img/hm1.jpg");
+			 background-size: 100%;
+		 }
+		 .img2{
+			 width: 180px;
+			 height: 320px;
+			 background-image: url("img/hm2.jpg");
+			 background-size: 100%;
+		 }
+}

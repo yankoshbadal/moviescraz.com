@@ -1,0 +1,368 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+title{
+  text-transform: uppercase;
+}
+#torrent{
+  font-family: 'Nunito',Arial;
+  text-align: center;
+  color: tomato;
+  border:3px solid #08a19c;
+  border-right: 0px;
+  border-left: 0px;
+  border-radius: 50px;
+}
+#torrent p{
+  width: 99%;
+}
+#choice{
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+#torrent img{
+ transition: all .7s;
+}
+#torrent img:hover{
+ transform: rotateZ(360deg);
+}
+#menu{
+  display: inline-block;
+  font-size: 25px;
+  float:right;
+  color: black;
+  margin-top: 70px;
+ 	margin-right: 100px;
+  height: 50px;
+  width: 100%;
+  font-family: 'Nunito',Arial;
+}
+#menu a{
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  color: black;
+ 	font-size: 20px;
+  margin-left: 18px;
+  float: right;
+  font-weight:lighter ;
+}
+.logo{
+  height: 150px;
+  width: 150px;
+   margin-top: -85px;
+   display: inline-block;
+   margin-left: 50px;
+   background-position: top;
+   background-image: url("img/logo.png");
+   background-size: 50%;
+   background-repeat: no-repeat;
+}
+#menu a:hover {
+  color: #08a19c;
+}
+#menu a:focus {
+   color: #08a19c;
+}
+.heading h1{
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  margin-left:2.5%;
+  font-weight: bold;
+  font-size: 20px;
+  display: relative;
+  margin-top: -30px;
+  text-align: center;
+}
+.poster{
+  height: 430px;
+  width: 300px;
+  position: relative;
+  margin-left: 100px;
+  margin-top: 100px;
+  box-shadow: 0 4px 50px grey ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  border-radius: 10px;
+}
+.info{
+  height: 430px;
+  width: 700px;
+  background-color: transparent;
+  position: relative;
+  font-size: 17px;
+  float: right;
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 200px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  color: #373737;
+  line-height: 25px;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  filter: blur(.0px);
+  background-color: #277C93;
+  margin-bottom: 10px;
+  transition: all 2s;
+}
+#name{
+  color: #15666c;
+  font-size: 19px;
+}
+.Moviescraz{
+  width: 85%;
+  height: auto;
+  margin-left: 7.5%;
+  font-size: 20px;
+  color: #373737;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin-top: 100px;
+  line-height: 30px;
+}
+.black{
+  width: 85%;
+  height: auto;
+  margin-top: 60px;
+  margin-left: 7.5%;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #1D1D1D;
+  font-family: 'Lato', sans-serif;
+}
+.black p{
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-transform: capitalize;
+}
+.yinfo{
+  width: 85%;
+  margin-top: 100px;
+  margin-left: 7.5%;
+  height: 330px;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #373737;
+  line-height: 40px;
+}
+.storyline{
+  width: 85%;
+  margin-top: 20px;
+  margin-left: 7.5%;
+  height: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: black;
+  line-height: 30px;
+  font-weight: bold;
+  color: #373737;
+}
+#tag{
+  font-size: 18px;
+  font-weight:bold;
+  font-family: 'Lato', sans-serif;
+  margin-top: 100px;
+  color: #15666c;
+  margin-left: 7.5%;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+.scrnsht1 ,.scrnsht2{
+  width: 55%;
+  height: 310px;
+  background-color: lightgrey;
+  margin-left: 22.5%;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-size: 101%;
+  background-position: center;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.scrnsht1:hover ,.scrnsht2:hover{
+  background-size: 120%;
+  filter: grayscale(100%);
+}
+
+#options{
+  font-size: 15px;
+  font-weight:bold;
+  font-family: 'Lato', sans-serif;
+  margin-top: 50px;
+  color: #3D3D3D;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.button{
+  text-transform: uppercase;
+  text-align: center;
+  height: 40px;
+  width: 170px;
+  background-color: transparent;
+  border: solid 2px grey;
+  color: grey;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin-left: 43%;
+  border-radius: 50px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.button:hover{
+  background-color: #08a19c;
+  color: #fff;
+  border-color: #08a19c;
+}
+.button p{
+  border-top: 0px solid transparent;
+  line-height: 8px;
+  font-weight: lighter;
+}
+a{
+  text-decoration: none;
+}
+.esc{
+  height: 20px;
+}
+#lst_sch{
+  font-family: 'Nunito',arial;
+  margin-top: -50px;
+  margin-left: 20px;
+  color: black;
+  font-weight: bolder;
+}
+a{
+  text-decoration: none;
+}
+.lst_sch img{
+  margin-left: -140px;
+  transition-property: all;
+  transition-duration: .5s;
+  margin-top: 50px;
+}
+.lst_sch img:hover{
+  animation-name: animateit;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes animateit{
+  0%{
+    margin-left: -140px;
+  }
+  25%{
+    margin-left: -160px;
+  }
+  50%{
+    margin-left: -140px;
+  }
+  75%{
+    margin-left: -160px;
+  }
+  100%{
+    margin-left: -140px;
+  }
+}
+#htd{
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Nunito',arail;
+  background-color: #1D1D1D;
+  margin-bottom: 0;
+  padding:20px;
+  color: #fff; 
+}
+/*MOBILE VIEW PORT*/
+@media (max-width: 1000px) {
+    #menu a{
+    font-size: 15px;
+    margin-left: 10px;
+   }
+  #menu{
+    margin-right: 15px;
+    margin-top: 25px;
+   }
+    .logo{
+      background-size: 50%;
+      margin-left: 0px;
+      margin-top: -70px;
+      height: 100px;
+      width: 100px;
+
+    }
+    .poster{
+      margin-top: 50px;
+      margin-left: 30px;
+    }
+    .info{
+      margin-right: 5%;
+      margin-top: 50px;
+      height: auto;
+      width: 90%;
+    }
+    .Moviescraz{
+      font-size: 15px;
+      width: 90%;
+      margin-left: 5%;
+    }
+    .black{
+      font-size: 16px;
+      width: 100%;
+      margin-left: 0;
+      height: auto;
+    }
+    .yinfo{
+      font-size: 15px;
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 50px;
+    }
+    .storyline{
+      font-size: 15px;
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 10px;
+    }
+    #tag{
+      font-size: 15px;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      margin-left: 5%;
+    }
+    .scrnsht1 ,.scrnsht2{
+      width: 90%;
+      height: 130px;
+      background-color: lightgray;
+      margin-left: 5%;
+      margin-top: 30px;
+      background-repeat: no-repeat;
+      background-size: 101%;
+    }
+    #options{
+      font-size: 15px;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .button{
+      margin-left: 25%;
+    }
+ }

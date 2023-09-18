@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.logo{
+	position: fixed;
+    top:0px;
+    width: 100%;
+    margin-left: 0%;
+    background-color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border:solid #cbcbcb 1px;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+
+
+}
+.tlogo{
+
+	height:40px;
+	width: 40px;
+	background-image: url("img/logo.png");
+	background-size:90%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 120px;
+
+
+}
+.privecy p{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	position: fixed;
+	margin-top: -74px;
+	display: block;
+	font-size: 21px;
+	margin-left: 170px;
+	color: #5f6368;
+	font-weight: 100;
+
+} .privecy b{
+}
+.home{
+	float: right;
+
+}
+.home:hover{
+	float: right;
+
+	filter: brightness(70%);
+}
+.container{
+	margin-top: 100px;
+	font-family: 'Poppins', sans-serif;
+	padding-right: 65px;
+	padding-left: 65px;
+
+}
+#cont{
+  margin-top: 5px;
+  color:  #079aa9;
+  margin-left: 80px;
+}
+li {
+	margin: 15px;
+	color:  #079aa9;
+  margin-left: 60px;
+}
+li a{
+	text-decoration: none;
+	color:#364043;
+	text-align: justify;
+
+}
+li b{
+  font-weight:normal;
+  color: #079aa9;
+}
+
+.box{
+	height: 100%;
+	width: 100%;
+}
+h2{
+	color: #364043;
+	margin-left: 55px;
+
+}
+p{
+color: #364043;
+	margin-left: 55px;
+}
+.home a{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  display: block;
+  margin-top: 20px;
+  font-size: 15px;
+  margin-left: 0px;
+  color: #5f6368;
+  font-weight: 100;
+
+}
+#security{
+  width: auto;
+  height: 55px;
+}
+@media (max-width: 1000px) {
+	h2{
+		margin-left: 0px;
+	}
+	p{
+		margin-left: 0px;
+		text-align: justify;
+	}
+	.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: justify;
+}
+.home{
+	display: none;
+}
+.tlogo{
+  margin-left: 15px;
+}
+.privecy p{
+  margin-left:60px;
+  font-size: 17px;
+}
+li{
+	margin-left: -20px;
+
+}
+li a{
+	text-align: justify all;
+}
+#cont{
+  margin-top: 5px;
+  color:  #079aa9;
+  margin-left: 10px;
+}
+}
